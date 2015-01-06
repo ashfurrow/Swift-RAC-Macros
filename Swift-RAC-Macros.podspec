@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Swift-RAC-Macros"
-  s.version      = "0.1"
+  s.version      = "0.2"
   s.summary      = "(Temporary) Replacements for the RAC and RACObserve macros in Swift"
 
   s.description  = <<-DESC

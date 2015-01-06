@@ -22,7 +22,11 @@ public struct RAC  {
     }
 }
 
-infix operator <~ {}
+infix operator <~ {
+    associativity right
+    precedence 90
+}
+
 public func <~ (rac: RAC, signal: RACSignal) -> RACDisposable {
     return signal ~> rac
 }
