@@ -35,6 +35,6 @@ public func ~> (signal: RACSignal, rac: RAC) -> RACDisposable {
     return rac.assignSignal(signal)
 }
 
-public func RACObserve(target: NSObject!, keyPath: String) -> RACSignal {
+public func RACObserve(target: NSObject!, _ keyPath: String) -> RACSignal {
     return target.rac_valuesForKeyPath(keyPath, observer: target)
 }
