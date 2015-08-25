@@ -24,7 +24,7 @@ public struct RAC  {
 
 infix operator <~ {
     associativity right
-    precedence 90
+    precedence 93
 }
 
 public func <~ (rac: RAC, signal: RACSignal) -> RACDisposable {
