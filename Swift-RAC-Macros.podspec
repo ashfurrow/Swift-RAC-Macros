@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Swift-RAC-Macros"
-  s.version      = "0.3.1"
+  s.version      = "0.3.2"
   s.summary      = "(Temporary) Replacements for the RAC and RACObserve macros in Swift"
 
   s.description  = <<-DESC
@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/ashfurrow/Swift-RAC-Macros.git", :tag => s.version }
   s.source_files  = "ReactiveCocoaBindings.swift"
   s.framework  = "Foundation"
-  s.dependency "ReactiveCocoa", ">= 2.0", "< 4.0"
+  s.dependency "ReactiveCocoa", ">= 2.0"
   s.requires_arc = true
 end
