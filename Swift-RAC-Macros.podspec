@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = "Swift-RAC-Macros"
-  s.version      = "0.3.2"
-  s.summary      = "(Temporary) Replacements for the RAC and RACObserve macros in Swift"
+  s.version      = "0.3.3"
+  s.summary      = "Replacements for the RAC and RACObserve macros in Swift 2."
 
   s.description  = <<-DESC
-                   Swift struct called "RAC" replaces the RAC macro from 
+                   Swift 2 struct called "RAC" replaces the RAC macro from 
                    ReactiveCocoa 2.x. A Swift function named RACObserve replaces
                    that macro. Combined with the custom `<~` operator, you can 
                    bind to `dynamic` properties.
@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/ashfurrow/Swift-RAC-Macros.git", :tag => s.version }
   s.source_files  = "ReactiveCocoaBindings.swift"
   s.framework  = "Foundation"
-  s.dependency "ReactiveCocoa", ">= 2.0"
+  s.dependency "ReactiveCocoa", ">= 4.0"
   s.requires_arc = true
 end
