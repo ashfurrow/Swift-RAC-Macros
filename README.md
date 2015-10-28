@@ -1,6 +1,8 @@
+:warning: **Don't use this** :warning:
+
+Seriously, don't use RAC's Objective-C API in Swift. It's full of pain. If you're using Swift, use RAC 3.x or 4.x instead and use the new APIs, not the Objective-C ones.
+
 Swift-RAC-Macros
 ================
 
-(Temporary) Replacements for the RAC and RACObserve macros in Swift.
-
-The ReactiveCocoa team is [hard at work](https://github.com/ReactiveCocoa/ReactiveCocoa/tree/swift-development) on an update to the library that will incorporate a native Swift API. Until that's complete, you can use this to use these Objective-C-style functions *with the understanding* that you should eventually look into the Swift API, once it exists. 
+Replacements for the RAC and RACObserve macros in Swift.
